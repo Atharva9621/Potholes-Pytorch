@@ -1,0 +1,12 @@
+names:
+- pothole
+nc: 1
+roboflow:
+  license: Public Domain
+  project: pothole_segmentation
+  url: https://universe.roboflow.com/potholedetection-86cjl/pothole_segmentation/dataset/8
+  version: 8
+  workspace: potholedetection-86cjl
+test: ../test/images
+train: pothole_segmentation-8/train/images
+val: pothole_segmentation-8/valid/images
